@@ -53,8 +53,8 @@ def menu_input():
             raise ValueError()        
     except ValueError:
         print("You must choose a number between 1 and 5")
-    #except:
-        #print("An unexpected error occured, please try again.")
+    except:
+        print("An unexpected error occured, please try again.")
     else: #run this as long as no input errors occured
         return user_choice
 
